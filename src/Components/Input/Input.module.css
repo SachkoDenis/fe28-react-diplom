@@ -1,0 +1,26 @@
+.input {
+    background: #323537;
+    border-radius: 10px;
+    padding: 16px 20px;
+    border: 2px solid transparent;
+    outline: none;
+    color: #80858B;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input:focus,
+.input:hover {
+    border-color: #7B61FF;
+    color: #FFFFFF;
+}
+
+.input:disabled {
+    background: #80858B;
+    color: #AFB2B6;
+}
+
+.error {
+    border-color: #FF5154;
+}
